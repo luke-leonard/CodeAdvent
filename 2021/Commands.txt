@@ -1,0 +1,8 @@
+
+
+alias test="clear && cabal run Day00-Tests"
+alias actual="clear && cabal run Day00"
+
+ghcid 
+ghcid --command='cabal v2-repl test:Day00-Tests'
+
