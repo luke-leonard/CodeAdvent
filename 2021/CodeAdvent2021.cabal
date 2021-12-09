@@ -22,14 +22,16 @@ maintainer:         Leonard.luke@outlook.com
 extra-source-files: CHANGELOG.md
 
 executable Main
-    main-is:          Part1.hs
+    main-is:          Current.hs
 
     -- Modules included in this executable, other than Main.
-    -- other-modules:
+    --other-modules:    
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.14.3.0
+    build-depends:    base ^>=4.14.3.0,
+                        split ^>= 0.2.2,
+                        containers
     hs-source-dirs:   Days
     default-language: Haskell2010
     -- other-modules:      Day01.Part1
